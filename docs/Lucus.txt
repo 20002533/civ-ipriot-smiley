@@ -1,0 +1,6 @@
+When inside of class the instance you're calling on is called self, when outside of class it's whatever you want it to be called.
+The method call needs to be called on an instance, when its self its inside a class, when your outside its whatever instance you created. The Happy class has the smiley class in it.
+SenseHat line
+Self is smiley, creates instance sensehat, and calls SenseHat class into it.
+Describe_state only returns a string, doesn't do anything else.
+Return statement has a variablbe of eyes above, the one with eyes of pixels. Can either have eyes open or closed inside var. 
