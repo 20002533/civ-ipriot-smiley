@@ -1,21 +1,22 @@
 from sense_hat import SenseHat
-
+#Imports the mock SenseHat class from the SenseHat.py file.#
 
 class Smiley:
+    #Shouty case means in all caps, all caps are constants that never change.#
     WHITE = (255, 255, 255)
     GREEN = (0, 255, 0)
     RED = (255, 0, 0)
     YELLOW = (255, 255, 0)
     BLANK = (0, 0, 0)
 
-    def __init__(self, describe=False):
+    def __init__(self, describe=True):
         # We have encapsulated the SenseHat object
-        self.sense_hat = SenseHat()
-        self.describe = describe
+       self.sense_hat = SenseHat()
+       self.describe = describe
 
-        Y = self.YELLOW
-        O = self.BLANK
-        self.pixels = [
+       Y = self.YELLOW
+       O = self.BLANK
+       self.pixels = [
             O, Y, Y, Y, Y, Y, Y, O,
             Y, Y, Y, Y, Y, Y, Y, Y,
             Y, Y, Y, Y, Y, Y, Y, Y,
