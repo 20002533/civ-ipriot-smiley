@@ -9,7 +9,7 @@ class Smiley:
     YELLOW = (255, 255, 0)
     BLANK = (0, 0, 0)
 
-    def __init__(self, describe=False):
+    def __init__(self, describe=True):
         # We have encapsulated the SenseHat object
        self.sense_hat = SenseHat()
        self.describe = describe

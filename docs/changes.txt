@@ -1,0 +1,30 @@
+Alterations to Code
+1 Tried changing smiley.show to happy.show, output was eyes are now open, step backwards.
+
+Didn't work because it needed an instance to work with, happy was on its own, needs a  instance to work with.
+
+2 Tried changing self.show to smiley.show, got traceback error, said self was not defined,
+ probably same thing; needs smiley instance to work correctly.
+
+3 Tried putting describe.show instead of smiley.show but came back with traceback saying describe is not defined, probably because describe is not defined in the main file.
+
+4 Tried putting print(smiley.describe) and received the following output:
+Eyes are now open
+False
+Eyes are now open
+
+5 (Most significant- Tried changing describe in Happy file to true, received the following output:
+Eyes are now open
+True
+Happy face with open eyes
+Eyes are now closed
+Happy face with closed eyes
+Eyes are now open
+Happy face with open eyes
+
+6 Tried calling describe_state function before blink def in Happy file, said describe_state was not defined.
+
+7 Tried calling describe_state after print(smiley.describe(), similar output to above, probably because describe_state is not in main.
+8 Tried putting describe variable in smiley instance and setting value to True.
+No errors, task accomplished.
+

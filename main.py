@@ -18,8 +18,9 @@ if __name__ == '__main__':
     ############################################################
 
     # Create a happy smiley, which is a subclass of Smiley
-    smiley = Happy()
-#Smiley instance is being created by Happy class.#
+    smiley = Happy(describe=True)
+    #Smiley instance is being created by Happy class.#
+    
     # This is a form of #polymorphism, as the Happy smiley class
     # does not have a method called .show(). This means that
     # the method .show() of the base class {Smiley} will be
@@ -35,3 +36,4 @@ if __name__ == '__main__':
     # is defined as an interface (i.e., an abstract base class
     # with an abstract method).
     smiley.blink()
+    

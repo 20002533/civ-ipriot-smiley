@@ -2,5 +2,19 @@ When inside of class the instance you're calling on is called self, when outside
 The method call needs to be called on an instance, when its self its inside a class, when your outside its whatever instance you created. The Happy class has the smiley class in it.
 SenseHat line
 Self is smiley, creates instance sensehat, and calls SenseHat class into it.
+
 Describe_state only returns a string, doesn't do anything else.
-Return statement has a variablbe of eyes above, the one with eyes of pixels. Can either have eyes open or closed inside var. 
+Return statement has a variable of eyes above, the one with eyes of pixels. Can either have eyes open or closed inside var. 
+Eyes = "open" if self.pixels line
+Default value is blank, if they are closed, if they are open it is yello. The number 10 refers to an index (lists are defined in brackets, and the index points to number 10 in the list.)
+
+Smiley/happy are one class stuck together. A class doesn't work in itself, needs to be instantiated first. 
+In Smiley, the describe variable that is attached to Self.describe is a field and you put the describe variable into it. 
+Every method in a class always starts with self.
+Frking is taking a copy of Raf's repo from his site and coppying it into my account on the GitHub side. When you cloan it you make a copy of it on your own local Pc.
+
+Project Breakdown
+We created a smiley instance in Main. The Name of instance eg smiley, class name, open/close paren to call on it. We modified the init function- the init takes in all the objects in the class you are in. It contained a value of describe which was set to False by default. In its current condition the code would stop at a certain point because the fact that it was set to false means that it would perform at the default value, which is to say, it would not execute the code inside of it. We had to change the value to True to run the code in it. Also we were able to use describe_state to display the output because it was called upon in Smiley, which was in Main. 
+We see method overridinb taking place- the describe_state def in smiley is not executed because of inheritance; the invocation in the Happy class takes precedence. 
+
+Mouth and eyes numbers refer to the numbers drawn- very simple picture. Eyes are 2 pixels, mouth is 6 pixels. With blinking when the eyes are open they will be blank, then you'll fill in that picture, then blank them, and then show the picture again. 

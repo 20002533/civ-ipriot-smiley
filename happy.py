@@ -18,7 +18,7 @@ class Happy(Smiley, Blinkable):
     """
     def __init__(self, describe=False):
         super().__init__(describe=describe)
-#Super joins all the classes together.#
+        #Super joins all the classes together.#
         self.draw_mouth()
         self.draw_eyes()
 
@@ -47,7 +47,7 @@ class Happy(Smiley, Blinkable):
             self.pixels[pixel] = self.BLANK if wide_open else self.YELLOW
         if self.describe_state:
             print("Eyes are now", "open" if wide_open else "closed")
-
+            
     def blink(self, delay=0.25):
         """
         Make the happy smiley blink once with a certain delay (in s).
